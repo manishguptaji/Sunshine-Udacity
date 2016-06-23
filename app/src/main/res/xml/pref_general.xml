@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:title="Add Location"
+        android:key="location"
+        android:defaultValue="110032"
+        android:inputType="text"
+        android:singleLine="true"></EditTextPreference>
+
+    <ListPreference
+        android:title="Weather Format"
+        android:key="units"
+        android:defaultValue="metric"
+        android:entryValues="@array/defaultvalues"
+        android:entries="@array/UservisibleStrings"></ListPreference>
+
+</PreferenceScreen>
